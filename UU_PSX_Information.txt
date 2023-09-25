@@ -10,7 +10,7 @@ TOC
 3. 	String processing
 3.1. 	General strings
 3.1. 	NPC strings
-
+4	Acknowledgements
 
 
 =================
@@ -124,3 +124,13 @@ Following NPC Blocks are the same:
 3860, 3862
 3861, 3864
 3875, 3881
+
+4. Acknowledgements
+=========================
+Thanks to Hank Morgan and his Underworld Exporter project. Without the text strings being available from there, this project would have not been possible.
+To my understanding he has also built upon existing projects in certain aspects, so also big thanks to the projects Abysmal and Underworld Adventures!
+Big thanks to the romhacking.net community!! Without the tools and knowledge available on that site, this project would have also never been possible.
+Thanks to dandandan5 on YouTube for providing the speedrun of the Japanese PSX version.
+
+THANKS!!!
+
