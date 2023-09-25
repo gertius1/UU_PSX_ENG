@@ -3,24 +3,18 @@ This doc collects all information found out about the UU PSX ROM
 
 TOC
 ===============
-1. 		Memory Maps
+1. 	Memory Maps
 1.1. 	SLPS_007.423
 1.2. 	AVATAR
-2.		ROM extension
-3. 		String processing
+2.	ROM extension
+3. 	String processing
 3.1. 	General strings
 3.1. 	NPC strings
 
 
 
-
-
-
-
-
-
 =================
-= Contents		=
+= Contents	=
 =================
 
 1. Memory Maps
@@ -30,12 +24,14 @@ The memory maps contain all discovered points of interest in the ROM. All inform
 1.1. Memory Map SLPS_007.42
 =============================
 
-0x11290 				Character creation screen menu bottom right, changed to SPC DEL END.
-						The character hexcode is the first hex nr in line, for the next 9 lines
-						The second hex is for alterations to the letter, like Dakuten. 0x00 means no addition, 0x01 means Dakuten in JAP letter, but leads to graphic error with ENG letter.
+0x11290 			Character creation screen menu bottom right, changed to SPC DEL END.
+				The character hexcode is the first hex nr in line, for the next 9 lines
+				The second hex is for alterations to the letter, like Dakuten. 0x00 means no addition, 0x01 means Dakuten in JAP letter, but leads 
+				to graphic error with ENG letter.
 			
-0x997DC					Alphabets used for character naming. Has 3 Alphabets, Katakana, Hiragana, 
-						Western, each with size 0xB4. In the Romhack, all have been replaced by the Western version, and switching between them has been hidden 
+0x997DC				Alphabets used for character naming. Has 3 Alphabets, Katakana, Hiragana, 
+				Western, each with size 0xB4. In the Romhack, all have been replaced by the Western version, and switching between them has been 
+				hidden 
 			
 			
 
@@ -44,32 +40,37 @@ The memory maps contain all discovered points of interest in the ROM. All inform
 To find out ROM location of specific resource, the ISO can be analysed with jpsxdec, and block nr of resource multiplied with 2048 (subtract offset of 397 blocks for AVATAR start). 
 
 0x000000 - 0x00039C		At the very beginning, there is a pointer table to all resources 
-						with 231 entries. The next pointer always has to be bigger than  the one before it, or crashes. 	
+				with 231 entries. The next pointer always has to be bigger than  the one before it, or crashes. 	
 						
-0x0A8000				Presumably the font table. Is loaded into VRAM and referenced by fonts, but could not be deciphered.
+0x0A8000			Presumably the font table. Is loaded into VRAM and referenced by fonts, but could not be deciphered.
 						
 0x0B0000 - 0x0BA000		General game strings. These correspond to Blocks 1-10 from uw1_strings_clean.txt, and add another Block 11 specific for PSX version. 
-						Block 24 is missing. Block 10 is existing, but seems to be unused in actual game (always shows "You see nothing special").
-						Block 10 was left out in ROMhack to save space. Pointer table structure as follows:
-						0x0B0000: Main pointer table, one 4-Byte entry per block (11 or 0x0B entries):
-						starts with number of entries 0x0B, then gives block index followed by block pointer offset (base 0x0B0000)
-						following a pointer leads to string pointer table for that block, e.g. 0x5C for block 1 leads to 
-						0x0B005C: At that location is the size of pointer table 0x200 (512, same for all 11 blocks), followed by 512 2-Byte pointers and then the strings.
-						Not every index has a string, it might be filled with empty strings (0x1F denotes end of string). 
+				Block 24 is missing. Block 10 is existing, but seems to be unused in actual game (always shows "You see nothing special").
+				Block 10 was left out in ROMhack to save space. Pointer table structure as follows:
+				0x0B0000: Main pointer table, one 4-Byte entry per block (11 or 0x0B entries):
+				starts with number of entries 0x0B, then gives block index followed by block pointer offset (base 0x0B0000)
+				following a pointer leads to string pointer table for that block, e.g. 0x5C for block 1 leads to 
+				0x0B005C: At that location is the size of pointer table 0x200 (512, same for all 11 blocks), followed by 512 2-Byte pointers and then the 
+				strings.
+				Not every index has a string, it might be filled with empty strings (0x1F denotes end of string). 
 						
-0x318800				AVATAR[7].tim image to be translated, Length 104E
-0x32E800				AVATAR[9].tim image to be translated, Length 10220
-0x33F000				AVATAR[10].tim image to be translated, Length 10220
-0x358800				AVATAR[12].tim image to be translated, Length 18220
+0x318800			AVATAR[7].tim image to be translated, Length 104E
+0x32E800			AVATAR[9].tim image to be translated, Length 10220
+0x33F000			AVATAR[10].tim image to be translated, Length 10220
+0x358800			AVATAR[12].tim image to be translated, Length 18220
 
 0x3A2000 - 0x46E800		NPC structs with some status data and dialog strings for each NPC (uw1_strings_clean.txt Block 3585-Block 3898).
-						0x3A2000: Main pointer table, one 4-Byte entry per NPC, starting with nr of NPCs (0x5C or 92), followed by pointer offsets to NPC structs (base 0x3A2000).
-						e.g. first NPC:
-						0x3A2800: start of first NPC struct. First Byte (0x1538) is relative offset to string pointer table:
-						0x3A3D38: start of first NPC 2-Byte string pointer table. Starts with nr of strings (e.g. 0x30, varying for each NPC), followed by that many pointers, and then strings.
-						strings are terminated by 0x1F, just like general strings.
-						Directly before the string pointer table it seems to contain the dialog structure pointer table. There has been some work done to analyse it, but to no success.
-						Decided to keep original dialog structure and only replace strings. Dialog structure differs from ENG version sometimes, so ENG strings have to be reordered or adapted.
+				0x3A2000: Main pointer table, one 4-Byte entry per NPC, starting with nr of NPCs (0x5C or 92), followed by pointer offsets to NPC structs 
+				(base 0x3A2000).
+				e.g. first NPC:
+				0x3A2800: start of first NPC struct. First Byte (0x1538) is relative offset to string pointer table:
+				0x3A3D38: start of first NPC 2-Byte string pointer table. Starts with nr of strings (e.g. 0x30, varying for each NPC), followed by that many 
+				pointers, and then strings.
+				strings are terminated by 0x1F, just like general strings.
+				Directly before the string pointer table it seems to contain the dialog structure pointer table. There has been some work done to analyse
+				it, but to no success.
+				Decided to keep original dialog structure and only replace strings. Dialog structure differs from ENG version sometimes, so ENG strings have 
+				to be reordered or adapted.
 
 2. ROM Extension
 ==========================
