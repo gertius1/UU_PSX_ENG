@@ -1,0 +1,92 @@
+Block 3585 Lines 46			V Fitting	
+Block 3586 Lines 163	 	V Over 0x179
+Block 3587 Lines 97		 	V Over 0x86
+Block 3588 Lines 136	 	V Over 0x5bc
+Block 3589 Lines 65			V Fitting
+Block 3590 Lines 79		 	V Fitting
+Block 3591 Lines 60			V Fitting
+Block 3592 Lines 15			V Fitting
+Block 3593 Lines 54		 	V Over 0x5c
+Block 3594 Lines 53			V Fitting
+Block 3596 Lines 139	 	V Over 0x74d
+Block 3597 Lines 99		 	V Over 0x232
+Block 3598 Lines 74		 	V Over 0x27f
+Block 3599 Lines 98			V Fitting
+Block 3600 Lines 67			V Fitting
+Block 3601 Lines 35			V Fitting
+Block 3602 Lines 40		 	V Over 0x49
+Block 3603 Lines 64			V Fitting
+Block 3604 Lines 85		 	V Over 0x4bb	
+Block 3605 Lines 21			V Fitting		
+Block 3606 Lines 21			V Fitting  	    
+Block 3607 Lines 69			V Over 0x46c
+Block 3608 Lines 97			V Fitting 	
+Block 3610 Lines 52			V Fitting
+Block 3611 Lines 51			V Over 0x173
+Block 3612 Lines 69			V Fitting
+Block 3648 Lines 26			V Fitting
+Block 3649 Lines 36			V Fitting
+Block 3650 Lines 11			V Fitting
+Block 3651 Lines 49			V Fitting
+Block 3672 Lines 30			V Over 0x13f
+Block 3673 Lines 43			V Fitting
+Block 3674 Lines 41			V Over 0x46f
+Block 3696 Lines 49			V Fitting 	(could not test beginning, starting on string 24)
+Block 3697 Lines 67			V Fitting 
+Block 3698 Lines 30			V Fitting 
+Block 3720 Lines 84			V Over 0x5b
+Block 3721 Lines 54			V Fitting 
+Block 3722 Lines 33			V Fitting 
+Block 3723 Lines 81			V Over 0x25a
+Block 3724 Lines 37			V Fitting
+Block 3725 Lines 59			V Over 0x733
+Block 3726 Lines 11			V Fitting
+Block 3727 Lines 75			V Fitting
+Block 3728 Lines 55			V Fitting
+Block 3730 Lines 84			V Fitting
+Block 3731 Lines 84			V Fitting
+Block 3732 Lines 84			V Fitting	
+Block 3733 Lines 84			V Fitting
+Block 3745 Lines 90			V Over 0x9a
+Block 3746 Lines 53			V Over 0x88
+Block 3768 Lines 29			V Over 0x125
+Block 3769 Lines 38			V Fitting
+Block 3771 Lines 74			V Over 0x2e3
+Block 3772 Lines 40			V Fitting
+Block 3773 Lines 48			V Over 0x140
+Block 3774 Lines 41			V Fitting
+Block 3775 Lines 61			V Fitting
+Block 3776 Lines 17			V Fitting
+Block 3777 Lines 26			V Over 0x60
+Block 3778 Lines 57			V Fitting
+Block 3792 Lines 44			V Fitting
+Block 3793 Lines 42			V Fitting
+Block 3794 Lines 41			V Fitting
+Block 3795 Lines 64			V Over 0xda
+Block 3796 Lines 79			V Over 0x395
+Block 3797 Lines 23			V Fitting
+Block 3798 Lines 46			V Fitting
+Block 3799 Lines 45			V Fitting
+Block 3800 Lines 45			V Fitting
+Block 3801 Lines 38			V Fitting
+Block 3802 Lines 52			V Over 0x290
+Block 3803 Lines 43			V Over 0x1ad
+Block 3804 Lines 42			V Over 0xee
+Block 3805 Lines 81			V Fitting
+Block 3806 Lines 40			V Fitting
+Block 3815 Lines 12			V Fitting
+Block 3816 Lines 51			V Fitting
+Block 3846 Lines 32			V Fitting
+Block 3847 Lines 32			V Fitting
+Block 3852 Lines 34			V Fitting
+Block 3856 Lines 34			V Fitting
+Block 3860 Lines 46			V Over 0xdf
+Block 3861 Lines 66			V Fitting
+Block 3862 Lines 46			V Over 0xdf
+Block 3864 Lines 66			V Fitting
+Block 3865 Lines 49			V Fitting
+Block 3866 Lines 41			V Over 0x1a1
+Block 3872 Lines 35			V Fitting
+Block 3875 Lines 7			V Fitting
+Block 3881 Lines 7			V Fitting
+Block 3898 Lines 19			V Fitting
