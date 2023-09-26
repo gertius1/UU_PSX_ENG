@@ -76,13 +76,13 @@ To find out ROM location of specific resource, the ISO can be analysed with jpsx
 ==========================
 Multiple methods for ROM extension have been tried with varying success, including adapting main resource pointer table at 0x000000. 
 Inserting empty ROM space around the 0x0BA000 mark for general strings didn´t work, led to crash in fight mode (weapon texture not found maybe?). 
-Inseting 0x100000 bytes at 0x46E800 for NPCs seems to work so far, still needs long-term test after finishing all NPCs.
+Inserting 0x100000 bytes at 0x46E800 for NPCs seems to work, has been tested extensively after finishing all NPCs.
 In the C software (in utilities.h), there is a function rewriteAvatarTopResourcePointerTable() to adapt main pointer table after insertion.
 
 
 3. String processing
 ==========================
-All strings are derived from the modified uw1_strings_clean.txt from Hank Morgans Underworld Exporter (Thanks!!).
+All strings are derived from the modified uw1_strings_clean.txt from Hank Morgan's Underworld Exporter (Thanks!!).
 Compared to the original, all empty spaces have been replaced to conserve ROM space.
 With the custom C software UU_strings_to_atlas.exe they are preprocessed, written into an Atlas input file, invoking Atlas to convert them to a bin, then insert them into the ROM, adapting pointer tables.
 Strings are manually edited directly in uw1_strings_clean.txt if corrections are needed (Player replies size, NPC dialog structure...), before converting them again with the toolchain mentioned above.
@@ -102,7 +102,7 @@ Several methods are used to preprocess the strings, before converting them to At
 - compression: if consecutive strings are the same, they are only stored in ROM once, and then all pointers point to that one string
 - articles: a_ and an_ have been stripped from object descriptions, because gramatically it doesn´t fit all cases how the JAP version uses them and it conserves ROM space
 - plurals: dropped plurals from item description, as it´s unclear how JAP version uses them and it conserves ROM space
-- numbers: number words liek "first, second, twentieth, hundreth..." are replaced by the digits 1,2,20,100 in order to conserve ROM space
+- numbers: number words like "first, second, twentieth, hundreth..." are replaced by the digits 1,2,20,100 in order to conserve ROM space
 
 
 3.2. NPC Strings
