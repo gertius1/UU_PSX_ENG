@@ -1022,12 +1022,12 @@ Block Name: 5
 057=undamaged
 058=new
 059=new
-060=burned out
-061=nearly spent
-062=half burned
-063=somewhat used
-064=hardly used
-065=unused
+060= burned out
+061= nearly spent
+062= half burned
+063= somewhat used
+064= hardly used
+065= unused
 066=empty
 067=nearly empty
 068=half full
@@ -2692,7 +2692,7 @@ Block Name: 3589
 008=Canst thou tell me of the song again?
 009=Pardon me,I must leave.
 010=Who you.Me no see live human here in long time.
-011=I am @GS8.Who art thou?
+011=I am @GS8.Who are you?
 012=When didst thou last see a live human here?
 013=None of thy business!
 014=Me Eyesnack.What you doing here?
@@ -2753,7 +2753,7 @@ Block Name: 3589
 Block Name: 3590
 
 001=Who be you?
-002=I am @GS8.Who art thou?
+002=I am @GS8.Who are you?
 003=None of thy business!
 004=Huh.Me Marrowsuck,the tailor.
 005=A tailor? Thou art a Ghoul,art thou not?
@@ -2806,7 +2806,7 @@ Block Name: 3590
 050=Okay,here your boots.So long.
 051=You arms full,I leave on floor.
 052=Fine.Me no talk to you,neither!
-053=Wait.I'm sorry.I am @GS8.
+053=Wait,sorry.I am @GS8.
 054=In that case,good-bye!
 055=Me got some little stuff,look like your size.Here!
 056=Hey,me already give you boots.
@@ -2836,11 +2836,11 @@ Block Name: 3590
 Block Name: 3591
 
 001=Who be ye and what business have ye here?
-002=I am @GS8.I wish to speak to thee.
+002=I am @GS8.
 003=I am on a quest.
 004=And who be ye?
-005=I am @GS8.Perhaps thou hast heard of me?
-006=@GS8 is my name.Canst help me?
+005=I am @GS8.
+006=@GS8 is my name.
 007=I have never heard of ye.Be ye friend to Vernix?
 008=Vernix who?
 009=Yes,I am.
@@ -3213,7 +3213,7 @@ Block Name: 3597
 +=032=him
 +=033=her
 032=A pity.I have heard much good said of them.
-033=Oh,THAT @GS8.Ah,yes,that is me.
+033=Oh,THAT @GS8.That is me.
 034=What hast thou heard?
 +=037=he
 +=038=she
@@ -4243,7 +4243,7 @@ Block Name: 3651
 001=lad
 002=lass
 003=Hail,stranger.What be thy business.I have not seen thee in this place before.
-004=I am  exploring the Abyss.
+004=I am exploring the Abyss.
 005=I am attempting to rescue an innocent girl.
 006=I serve a punishment for a crime I did not commit.
 007=Exploring,eh.Ha,that's a good one.But if thou dost not wish to speak of thy crime,'tis not my business to ask.\m
@@ -4330,7 +4330,7 @@ Block Name: 3673
 
 001=Ach,@GS8,the aspiring miner.What can I do for ye?
 002=Ach,ye don't look like a miner to me.Who be ye?
-003=I am @GS8,an adventurer.
+003=I am @GS8.
 004=That is my business,not thine.
 005=Well then,off with thee!
 006=Well met,@GS8.I be Hewstone.What are ye doing in these parts?
@@ -4443,7 +4443,7 @@ Block Name: 3696
 021=Perhaps I have something here for thee.
 022=Sorry to have irked thee so.I'll take my leave now.
 023=I'll not be talked to that way - prepare for battle!
-024=@GS8,what dost wish now?
+024=@GS8,what dost wish?
 025=Merely to exchange items and information.
 026=Excuse me,I must leave now.
 027=Why must you be so hostile?
@@ -5038,7 +5038,7 @@ Block Name: 3728
 003=I am an adventurer.
 004=I am your doom!
 005=All sounds very confusing.Mind I call you Rodriguez?
-006=I do mind.My name is @GS8.
+006=I do mind.I am @GS8.
 007=Not at all,Rodriguez is a fine name.
 008=If thou dost insist.
 009=Whatever you say,Rodriguez.
