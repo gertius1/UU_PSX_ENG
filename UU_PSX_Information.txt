@@ -83,7 +83,7 @@ In the C software (in utilities.h), there is a function rewriteAvatarTopResource
 3. String processing
 ==========================
 All strings are derived from the modified uw1_strings_clean.txt from Hank Morgan's Underworld Exporter (Thanks!!).
-Compared to the original, all empty spaces have been replaced to conserve ROM space.
+Compared to the original, all empty spaces after commas and fullstops have been taken out to conserve ROM space.
 With the custom C software UU_strings_to_atlas.exe they are preprocessed, written into an Atlas input file, invoking Atlas to convert them to a bin, then insert them into the ROM, adapting pointer tables.
 Strings are manually edited directly in uw1_strings_clean.txt if corrections are needed (Player replies size, NPC dialog structure...), before converting them again with the toolchain mentioned above.
 In the C software there has been added a function for linebreaks for longer strings (NPCs, Readables, Signs), as the ENG strings behave totally different than the JAP ones.
