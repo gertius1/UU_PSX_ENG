@@ -83,10 +83,13 @@ THANKS!!!
 
 Links
 ==========================
+Patch download link for Rev 1 version of the Rom (recommended): 
+http://www.zaqmusic.com/UU/UU_REV1_ENG_PATCH.zip
+
 Romhacking thread (general discussion and bug reports):
 https://www.romhacking.net/forum/index.php?topic=37760.0
 
-Romhacking release page:
+Romhacking release page (not up-to-date anymore because of closing of Romhacking.net):
 https://www.romhacking.net/translations/7062/ 
 
 YouTube demo video:
