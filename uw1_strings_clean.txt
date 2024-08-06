@@ -1,16 +1,3 @@
-The file uw1_strings_clean.txt is taken over and modified from Hank Morgan´s Underworld Exporter project and released under the MIT License:
-
-MIT License
-
-Copyright (c) 2017 Hank Morgan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
-
-
 +=====================================+
 Block Name: 1
 
@@ -1433,8 +1420,8 @@ Block Name: 8
 136=Left Right Center
 137=Storage Room: East
 138=Storage Room: West
-139=ORA,the Mantra of Unarmed combat,helps the unfortunate.
-140=To protect thyself,use the ANRA chant.
+139=ORA,the Mantra of Unarmed combat,helps the unfortunate.\MC
+140=To protect thyself,use the ANRA chant.\MB
 141=Ask Shanklick about crazy wizard.
 142=Magic Crystal exposes hidden tombs and monsters.
 143=Mountainman Shak: Master Weaponsmith
@@ -1812,7 +1799,7 @@ Block Name: 10
 +=====================================+
 Block Name: 11
 
-000= pieces of
+000= pc of
 001=\nbelonging to
 002=
 004=unclear
@@ -1829,7 +1816,7 @@ Block Name: 11
 015=Where
 016=Do you want to use it?
 017=There is nothing there
-018=You have no runes
+018=No spell selected
 019=appears
 020=Speak mantra
 021=No mantra
@@ -1915,7 +1902,7 @@ Block Name: 11
 161=Yes
 162=No
 170=You cannot move this
-171=You are not hungry
+171= has not enough space
 172=Use the anvil on?
 173=Preparing Save...
 174=Error while saving
@@ -1923,7 +1910,7 @@ Block Name: 11
 176=Loading...
 177=Do you want to rest?
 178=Turn off the power
-179=No Runes selected
+179=You have no runes
 180=Quit game?
 181=Saving not possible
 186=The item cannot be \nrepaired
@@ -2287,7 +2274,7 @@ Block Name: 3586
 005=What dost thou know of the Talismans of Sir Cabirus?
 006=Where can I find a smith?
 007=Can you teach me repair?
-008=Well,there's no substitute for practice,but I've heard tell that the mantra LON may help ye to repair items with more skill.Now,can I do anything else for ye?
+008=Well,there's no substitute for practice,but I've heard tell that the mantra LON may help ye to repair items with more skill.Now,can I do anything else for ye?\MO
 009=Canst thou repair this?
 010=Canst thou identify this?
 011=Dost know aught of Cabirus' Talismans?
@@ -2373,7 +2360,7 @@ Block Name: 3586
 087=Yes,sorry,here it is.
 088=Ach! Ye be wastin' me time for nothing.
 089=No,I have changed my mind.
-090=All right,I'll have it ready for ye in @GI3C2 minutes. An' don't forget the @SI4 @SS6 of gold!
+090=All right,I'll have it ready for ye in @GI3C2 minutes. An' don't forget the @SI4 pieces of gold!
 091=Excellent.I shall see thee then.
 092=All right,but hurry.Time is short.
 093=There ye are.'Tis right as rain now.
@@ -4462,10 +4449,10 @@ Block Name: 3696
 027=Why must you be so hostile?
 028=I'll teach thee about hostility!
 029=I have nothing for thee now.Leave!
-030=Don't be so hostile.I'm leaving.
+030=I'm leaving.
 031=Goodbye.
-032=Sorry to have bothered thee.Farewell.
-033=Thy attitude is tiresome.I'll teach thee some manners.
+032=Sorry.Farewell.
+033=I'll teach thee some manners.
 034=Perhaps I have something thou wilt be interested in.
 035=I make thee this offer.
 036=I demand you give me this!
@@ -5130,10 +5117,10 @@ Block Name: 3730
 030=Hast thou any information about the writ of Lorne?
 031=I believe I have already given thee this information,but I would be happy to repeat it.
 032=As a fellow Knight,I would be happy to help thee.
-033=Use the mantra AMO to increase thy swordfighting ability.
-034=The mantra GAR will allow thee to wield an axe with greater skill.
-035=If thou dost use blunt weapons,the mantra KOH will be of use.
-036=Chanting the mantra FAHM will make thy arrows fly true.
+033=Use the mantra AMO to increase thy swordfighting ability.\MD
+034=The mantra GAR will allow thee to wield an axe with greater skill.\ME
+035=If thou dost use blunt weapons,the mantra KOH will be of use.\MF
+036=Chanting the mantra FAHM will make thy arrows fly true.\MG
 037=I thank thee for thy help.
 038=I will try this mantra at the earliest opportunity.
 039=I hear that it lies in the area of the Trolls.
@@ -5218,10 +5205,10 @@ Block Name: 3731
 030=Hast thou any information about the writ of Lorne?
 031=I believe I have already given thee this information,but I would be happy to repeat it.
 032=As a fellow Knight,I would be happy to help thee.
-033=Use the mantra AMO to increase thy swordfighting ability.
-034=The mantra GAR will allow thee to wield an axe with greater skill.
-035=If thou dost use blunt weapons,the mantra KOH will be of use.
-036=Chanting the mantra FAHM will make thy arrows fly true.
+033=Use the mantra AMO to increase thy swordfighting ability.\MD
+034=The mantra GAR will allow thee to wield an axe with greater skill.\ME
+035=If thou dost use blunt weapons,the mantra KOH will be of use.\MF
+036=Chanting the mantra FAHM will make thy arrows fly true.\MG
 037=I thank thee for thy help.
 038=I will try this mantra at the earliest opportunity.
 039=I hear that it lies in the area of the Trolls.
@@ -5306,10 +5293,10 @@ Block Name: 3732
 030=Hast thou any information about the writ of Lorne?
 031=I believe I have already given thee this information,but I would be happy to repeat it.
 032=As a fellow Knight,I would be happy to help thee.
-033=Use the mantra AMO to increase thy swordfighting ability.
-034=The mantra GAR will allow thee to wield an axe with greater skill.
-035=If thou dost use blunt weapons,the mantra KOH will be of use.
-036=Chanting the mantra FAHM will make thy arrows fly true.
+033=Use the mantra AMO to increase thy swordfighting ability.\MD
+034=The mantra GAR will allow thee to wield an axe with greater skill.\ME
+035=If thou dost use blunt weapons,the mantra KOH will be of use.\MF
+036=Chanting the mantra FAHM will make thy arrows fly true.\MG
 037=I thank thee for thy help.
 038=I will try this mantra at the earliest opportunity.
 039=I hear that it lies in the area of the Trolls.
@@ -5394,10 +5381,10 @@ Block Name: 3733
 030=Hast thou any information about the writ of Lorne?
 031=I believe I have already given thee this information,but I would be happy to repeat it.
 032=As a fellow Knight,I would be happy to help thee.
-033=Use the mantra AMO to increase thy swordfighting ability.
-034=The mantra GAR will allow thee to wield an axe with greater skill.
-035=If thou dost use blunt weapons,the mantra KOH will be of use.
-036=Chanting the mantra FAHM will make thy arrows fly true.
+033=Use the mantra AMO to increase thy swordfighting ability.\MD
+034=The mantra GAR will allow thee to wield an axe with greater skill.\ME
+035=If thou dost use blunt weapons,the mantra KOH will be of use.\MF
+036=Chanting the mantra FAHM will make thy arrows fly true.\MG
 037=I thank thee for thy help.
 038=I will try this mantra at the earliest opportunity.
 039=I hear that it lies in the area of the Trolls.
