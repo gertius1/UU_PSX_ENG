@@ -2687,9 +2687,9 @@ Block Name: 3589
 003=
 004=What can me help you with?
 005= else
-006=Canst thou tell me of the Ghouls?
-007=Canst thou tell me of the collapse?
-008=Canst thou tell me of the song again?
+006=Tell me of the Ghouls.
+007=Tell me of the collapse.
+008=Tell me of the song again.
 009=Pardon me,I must leave.
 010=Who you.Me no see live human here in long time.
 011=I am @GS8.Who are you?
