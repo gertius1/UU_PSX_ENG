@@ -1,4 +1,4 @@
-Ultima Underworld PSX Rev 1 English Patch V1.2 by Gertius
+Ultima Underworld PSX Rev 1 English Patch V1.3 by Gertius
 
 TOC
 - Version history
