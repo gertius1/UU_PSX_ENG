@@ -12,6 +12,7 @@ TOC
 
 Version history
 ======================
+V1.3 fixes a bug in the conversation with Eyesnack on lvl 5, when talking to him again after learning what he has to teach
 V1.2 fixes a bug in the conversation with Shak on lvl 2, when asking him to repair items
 V1.1 fixed bandits dialog on lvl 3 which led to crash, added missing mantras, small fixes of other strings
 V1.0 initial release
