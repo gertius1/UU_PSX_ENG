@@ -83,8 +83,12 @@ THANKS!!!
 
 Links
 ==========================
-Patch download link for Rev 1 version of the Rom (recommended): 
+Patch download link for Rev 1 version of the Rom: 
 http://www.zaqmusic.com/UU/UU_REV1_ENG_PATCH.zip
+
+Translated manual for PSX version:
+https://f.rpghq.org/bV4PdghHSx6f.pdf?n=manual_en.pdf
+(translation by rusty_shackleford of rpghq.org)
 
 Manuals for DOS version (most of it applies for PSX version as well):
 https://www.oldgames.sk/en/game/ultima-underworld-the-stygian-abyss/download/292/
