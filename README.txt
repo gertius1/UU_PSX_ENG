@@ -1,4 +1,4 @@
-Ultima Underworld PSX Rev 1 English Patch V1.3 by Gertius
+Ultima Underworld PSX Rev 1 English Patch V2.0 by Gertius
 
 TOC
 - Version history
@@ -12,9 +12,25 @@ TOC
 
 Version history
 ======================
-V1.3 fixes a bug in the conversation with Eyesnack on lvl 5, when talking to him again after learning what he has to teach
-V1.2 fixes a bug in the conversation with Shak on lvl 2, when asking him to repair items
-V1.1 fixed bandits dialog on lvl 3 which led to crash, added missing mantras, small fixes of other strings
+V2.0
+Added features:
+- added Dual Shock controls
+-- analog sticks for movement
+-- in battle mode: R2 for attack (repeat last attack), L1 for cast spell
+-- make sure in emulator to A) set controller to DualShock mode and B) Enable Analog for it to work
+Bug fixes:
+- tidied up presentation of translation texts (linebreaks, capitalization etc)
+- fixed original bug: difference in movement direction vs facing direction
+
+V1.3 
+fixes a bug in the conversation with Eyesnack on lvl 5, when talking to him again after learning what he has to teach
+
+V1.2 
+fixes a bug in the conversation with Shak on lvl 2, when asking him to repair items
+
+V1.1 
+fixed bandits dialog on lvl 3 which led to crash, added missing mantras, small fixes of other strings
+
 V1.0 initial release
 
 Project description
@@ -36,7 +52,7 @@ In addition to that, the PSX version can be played in emulators, which for examp
 List of files
 ======================
 The ROMhack comes with these files:
-- UU_patch.xdelta
+- UU_patch_v2_0.xdelta
 - UU_PSX_Controls.jpg
 - README.txt
 
@@ -60,8 +76,7 @@ Even though it has proven stable in many hours of testing, it cannot be ruled ou
 It is advised to save often. Please report crashes to the thread on romhacking.net given below.
 
 Known bugs are that some character names exceed the graphics box and may write into the dialog strings.
-Also, the linebreaks, while working nicely for readables and NPC dialog, do not work for shorter dynamic strings (put together at runtime), like item descriptions.
-They may or may not wrap around ugly. This is also the case, when the player´s name is mentioned in a conversation (for best results of linebreaks choose player name with length of 4 characters).
+Also, the linebreaks, while working nicely for readables and NPC dialog, sometimes do not work for shorter dynamic strings (put together at runtime), like item descriptions. They may or may not wrap around ugly.
 This is expected behaviour and cannot be changed within the scope of this project.
 Some skill names are too long and overlap with the skill value. This has been kept, to retain clarity regarding to the skill name.
 
@@ -94,8 +109,8 @@ https://f.rpghq.org/bV4PdghHSx6f.pdf?n=manual_en.pdf
 Manuals for DOS version (most of it applies for PSX version as well):
 https://www.oldgames.sk/en/game/ultima-underworld-the-stygian-abyss/download/292/
 
-Romhacking thread (general discussion and bug reports):
-https://www.romhacking.net/forum/index.php?topic=37760.0
+TTLG thread (general discussion and bug reports):
+https://www.ttlg.com/forums/showthread.php?t=152355
 
 Romhacking release page (not up-to-date anymore because of closing of Romhacking.net):
 https://www.romhacking.net/translations/7062/ 
