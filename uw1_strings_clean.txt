@@ -3743,7 +3743,7 @@ Block Name: 3604
 063=And thou art a fool.Farewell!
 064=Good day.
 065=We shall see.
-066=Below us now.Why,the flaming heart of the volcano,I would surmise.And below that lie the bowels of Britannia.Think,friend,someday thou wilt be part of that,and not anothe.body thrashing about in these caverns we call home.
+066=Below us now.Why,the flaming heart of the volcano,I would surmise.And below that lie the bowels of Britannia.Think,friend,someday thou wilt be part of that,and not another body thrashing about in these caverns we call home.
 067=I see.Goodbye!
 068=Ah,thou shouldst know that it is often easier to find useful items by bartering than simply by scavenging.Find thyself someone who is willing to trade,and give him the items thou dost not need in exchange for more useful ones.\m
 069=Keep in mind whom thou art dealing with.I hear that the Mountainfolk are fond of gold,for example,while Goblins may not be as attached to it.
